@@ -1,7 +1,7 @@
 module.exports = ({ env }) => ({
   proxy: true,
-  url: env("MY_HEROKU_URL"),
+  url: env("https://stark-temple-02257.herokuapp.com/"),
   app: {
-    keys: env.array("APP_KEYS"),
+    keys: env.array("afkzdlfnkdlnfdzklfkzl"),
   },
 });
