@@ -37,6 +37,12 @@
       "required": true,
       "min": 1950,
       "max": 2025
+    },
+    "skills": {
+      "type": "richtext"
+    },
+    "linkurl": {
+      "type": "richtext"
     }
   }
 }
