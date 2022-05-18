@@ -24,10 +24,6 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "string",
-      "required": true
-    },
     "image": {
       "type": "string",
       "required": true
@@ -38,11 +34,17 @@
       "min": 1950,
       "max": 2025
     },
-    "skills": {
+    "description": {
       "type": "richtext"
     },
     "linkurl": {
-      "type": "richtext"
+      "type": "string"
+    },
+    "level": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
     }
   }
 }
